@@ -9,7 +9,12 @@ Here i will be documenting my homelab experience, if anyone has questions or tip
 <img width="712" height="741" alt="diagram drawio" src="https://github.com/user-attachments/assets/bb35ccdd-f16a-4a2b-9e5e-4d4c1d87c967" />
 
 # Info
-## Wazuh
+<div align="center">
+  <h2>Wazuh</h2>
+  <img width="1400" height="350" src="https://github.com/user-attachments/assets/876d90d8-9969-434d-ab47-ac324be22ce6" />
+</div>
+
+
 
 I installed Wazuh on Ubuntu, installing ubuntu on VM is simple so i wont show it here. 
 
@@ -24,8 +29,10 @@ After that you will need to install ***Wazuh Agent*** on other machines that you
 You need to click Deploy new agent on the Wazuh dashboard, and it will write you exact commands that you need to paste to install agents. **Its that simple.**
 
 ---
-## pfSense
-
+<div align="center">
+  <h2>pfSense</h2>
+  <img width="1000" height="250" alt="pfsense-banner" src="https://github.com/user-attachments/assets/80a87c43-48cd-4a86-a692-34d7e51803d5" />
+  </div>
 pfSense has its own "System" so you dont need to install another Ubuntu or Windows, just install their .iso file
 
 You need to create network so every device will comunicate with each other
