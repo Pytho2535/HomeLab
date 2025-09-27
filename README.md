@@ -32,7 +32,7 @@ You need to click Deploy new agent on the Wazuh dashboard, and it will write you
 <div align="center">
   <h2>pfSense</h2>
   <img width="1000" height="250" alt="pfsense-banner" src="https://github.com/user-attachments/assets/80a87c43-48cd-4a86-a692-34d7e51803d5" />
-  </div>
+</div>
 pfSense has its own "System" so you dont need to install another Ubuntu or Windows, just install their .iso file
 
 You need to create network so every device will comunicate with each other
@@ -42,5 +42,19 @@ Remember to configure the routing, so the firewall will be between the internet 
 That way only Firewall will get internet access `(NAT)` and it will share it to every other device in that `Internal Network` (Remember to set every other device ONLY to `Internal Network`)
 
 After the installation, dismout the .iso file in `Storage` Settings and you should be good to go
-
 Now just run other device connected to that network and search in browser firewall's IP, the default credentials are: `login: admin` `password: pfsense`
+
+
+---
+<div align="center">
+  <h2>Splunk</h2>
+  <img width="512" height="350" alt="img icons8" src="https://github.com/user-attachments/assets/c038753f-47cb-4bb9-9394-2de9c8ad8c85" />
+</div>
+
+I actually wanted to use Wazuh, but i switched to Splunk in this project so I will document it here too
+
+To install it just download the package from their website and follow instructions, I installed Splunk on Ubuntu.
+
+After installing it go to the `/opt/splunk/bin` and type `./splunk start --accept-license` and follow instructions
+
+To configure **forwarders** go to your Splunk page, click `settings --> forwarding and receiving`, then under `recieve data` click `add new` and type listening port (mine will be 9997)
