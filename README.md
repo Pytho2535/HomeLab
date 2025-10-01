@@ -41,7 +41,7 @@ Remember to configure the routing, so the firewall will be between the internet 
 
 That way only Firewall will get internet access `(NAT)` and it will share it to every other device in that `Internal Network` (Remember to set every other device ONLY to `Internal Network`)
 
-After the installation, dismout the .iso file in `Storage` Settings and you should be good to go
+After the installation, dismount the .iso file in `Storage` Settings and you should be good to go
 Now just run other device connected to that network and search in browser firewall's IP, the default credentials are: `login: admin` `password: pfsense`
 
 
