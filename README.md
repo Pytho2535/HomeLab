@@ -8,11 +8,19 @@ Here i will be documenting my homelab experience, if anyone has questions or tip
 # Homelab Diagram
 <img width="712" height="741" alt="diagram drawio" src="https://github.com/user-attachments/assets/bb35ccdd-f16a-4a2b-9e5e-4d4c1d87c967" />
 
+
+
+
+## Thats how it should look like
+<img width="235" height="403" alt="image" src="https://github.com/user-attachments/assets/bfce8c32-3c09-433e-ae0c-6cbdea8b17ce" />
+
+
 # Info
 <div align="center">
   <h2>Wazuh</h2>
   <img width="1400" height="350" src="https://github.com/user-attachments/assets/876d90d8-9969-434d-ab47-ac324be22ce6" />
 </div>
+
 
 
 
