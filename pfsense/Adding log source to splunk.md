@@ -1,7 +1,7 @@
 ## Forwarding pfsense logs to Splunk
 To forward logs from pfsense to Splunk we need to go to the Splunk's settings inside our webpage.
 
-Click `Settings -> Data inputs -> UDP -> Add new`, Then type your port and click Next 
+### Click `Settings -> Data inputs -> UDP -> Add new`, Then type your port and click Next 
 <img width="1131" height="653" alt="image" src="https://github.com/user-attachments/assets/3780877d-d2e7-481e-a34e-8949d0226eaf" />
 
 ### Now you will need to click `New` and type your name for Source Type
