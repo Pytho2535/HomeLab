@@ -1,6 +1,9 @@
 # HomeLab
 
 Here i will be documenting my homelab experience, if anyone has questions or tips feel free to message me on discord: pytho_
+
+
+<b>[IMPORTANT]</b> Remember to create `Snapshots` so if you break something you can always come back to the original state
 <br>
 <br>
 <br>
